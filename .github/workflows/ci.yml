@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - run: pip install -r requirements.txt
+      - run: pytest tests/ -v --cov=data/synthetic_generator --cov-report=term-missing
+      - name: Smoke-test synth generator
+        run: |
+          python data/synthetic_generator/synth_generator.py --rows 1000 --out /tmp/test.csv
+          python -c "
+          import pandas as pd
+          df = pd.read_csv('/tmp/test.csv')
+          assert len(df) == 1000
+          print(f'✓ {len(df)} rows OK')
+          "
