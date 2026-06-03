@@ -10,7 +10,7 @@ Cloud infrastructure costs can spiral quickly across multi-tenant environments. 
 
 | Layer | Technology |
 |---|---|
-| Data Generation | Python 3.10+, Faker, NumPy, pandas |
+| Data Generation | Python 3.10+,  NumPy, pandas |
 | Storage | PostgreSQL 15, CSV (raw/processed) |
 | Analysis | Jupyter, pandas, seaborn, matplotlib |
 | ML / Anomaly Detection | scikit-learn, Isolation Forest, DBSCAN |
