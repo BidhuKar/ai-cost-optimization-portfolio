@@ -1,6 +1,6 @@
 # AI Cost Optimization Portfolio
 
-> **End-to-end data analytics & ML portfolio project** demonstrating cloud cost anomaly detection, root-cause analysis, and a real-time optimization dashboard — targeting Data Engineering, MLOps, and Applied AI roles at companies like Microsoft, Google, and Meta.
+> **End-to-end data analytics & ML portfolio project** demonstrating cloud cost anomaly detection, root-cause analysis, and a real-time optimization dashboard — targeting Data Analytics, MLOps, and Applied AI roles.
 
 ---
 
