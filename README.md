@@ -2,6 +2,7 @@
 
 > **End-to-end data analytics & ML portfolio project** demonstrating cloud cost anomaly detection, root-cause analysis, and a real-time optimization dashboard — targeting Data Analytics, MLOps, and Applied AI roles.
 
+Project Portfolio Page: https://copilot.microsoft.com/shares/artifacts/JwDtbU3goEGgncCUCJf7c?expand=true
 ---
 
 ## 📌 Project Overview
